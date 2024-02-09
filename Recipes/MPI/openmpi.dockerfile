@@ -16,7 +16,6 @@ RUN zypper -n install --allow-unsigned-rpm /RPMS/x86_64/*.rpm
 
 ARG LUSTRE_VERSION=2.15.0-RC2
 ARG LIBFABRIC_VERSION=v1.15.2
-ARG MPICH_VERSION=4.1
 
 ENV _TOOLS="wget gzip zip git cmake libtool pkg-config"
 ENV _RUNTIME="libaec0 libyaml-0-2"
